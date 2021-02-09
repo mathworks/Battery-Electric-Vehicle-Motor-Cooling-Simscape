@@ -9,6 +9,9 @@ system requirements are met.
 
 Open the project file BEV_Motor_Cooling.prj to get started.
 
+This video explains this model and introduces you to modeling with Simscape:
+* [Getting Started with Simscape](https://www.mathworks.com/videos/getting-started-with-simscape-1612443969016.html)
+
 To learn more about modeling and simulation with Simscape, please visit:
 * [Simscape Getting Started Resources](https://www.mathworks.com/solutions/physical-modeling/resources.html)
 * Product Capabilities:
