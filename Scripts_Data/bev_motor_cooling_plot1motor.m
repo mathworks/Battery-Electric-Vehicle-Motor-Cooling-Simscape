@@ -1,6 +1,6 @@
 % Code to plot simulation results from bev_motor_cooling
 %
-% Copyright 2021 The MathWorks, Inc.
+% Copyright 2021-2022 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if isempty(out.simlog_bev_motor_cooling)

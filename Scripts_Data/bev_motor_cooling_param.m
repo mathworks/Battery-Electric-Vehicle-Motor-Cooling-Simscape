@@ -1,5 +1,5 @@
 % Key parameters for bev_motor_cooling.slx
-% Copyright 2021 The MathWorks, Inc.
+% Copyright 2021-2022 The MathWorks, Inc.
 
 % Vehicle
 bev.car.mass             = 3500; % kg
