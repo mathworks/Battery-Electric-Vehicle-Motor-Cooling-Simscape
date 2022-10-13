@@ -13,7 +13,7 @@
 
 open_system('bev_motor_cooling')
 
-set_param(find_system('bev_motor_cooling','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('bev_motor_cooling','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Simulation Results from Simscape Logging: With Cooling System
 %
@@ -22,7 +22,7 @@ set_param(find_system('bev_motor_cooling','FindAll', 'on','type','annotation','T
 % for a brief period of time during an extended period of acceleration.
 %
 open_system('bev_motor_cooling')
-set_param(find_system('bev_motor_cooling','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('bev_motor_cooling','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 Cooling_On = 1;
 
 out=sim('bev_motor_cooling');
@@ -41,7 +41,7 @@ bdclose('bev_motor_cooling')
 % simulation without physically removing the components from the model.
 
 open_system('bev_motor_cooling')
-set_param(find_system('bev_motor_cooling','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('bev_motor_cooling','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 Cooling_On = 0;
 set_param([bdroot '/Cooling System'],'BackgroundColor','[0.9 0.9 0.9]');
 
