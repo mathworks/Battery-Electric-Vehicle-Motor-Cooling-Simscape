@@ -6,7 +6,7 @@
 % the speed, torque, and temperature measurements are used to assess if the
 % system requirements are met.
 %
-% Copyright 2021-2023 The MathWorks, Inc.
+% Copyright 2021-2024 The MathWorks, Inc.
 
 
 %% Model

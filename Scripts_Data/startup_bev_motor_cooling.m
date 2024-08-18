@@ -1,5 +1,5 @@
 % Startup script for bev_motor_cooling
-% Copyright 2021-2023 The MathWorks, Inc.
+% Copyright 2021-2024 The MathWorks, Inc.
 
 bev_motor_cooling_param
 open_system('bev_motor_cooling');
